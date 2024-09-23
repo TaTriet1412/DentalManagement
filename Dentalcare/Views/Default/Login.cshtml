@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+<link href="../../Content/css/login_style.css" rel="stylesheet" />
+<main>
+    <div class="title-login">Đăng nhập để xem lịch sử khám</div>
+    <form action="">
+        <label for="phone-numbers" id="name-label">
+            Số điện thoại
+            <input id="phone-numbers" type="text" required pattern="[0-9]{10}" placeholder="0123456789">
+        </label>
+        <label for="password" id="name-label">
+            Mật khẩu
+            <input id="password" type="password">
+        </label>
+    </form>
+</main>

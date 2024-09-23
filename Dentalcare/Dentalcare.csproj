@@ -359,6 +359,12 @@
     <Content Include="Views\Shared\MyLayout.cshtml" />
     <Content Include="Scripts\js\.DS_Store" />
     <Content Include="Views\Default\Home.cshtml" />
+    <Content Include="Views\Default\About.cshtml" />
+    <Content Include="Views\Default\Service.cshtml" />
+    <Content Include="Views\Default\Doctors.cshtml" />
+    <Content Include="Views\Default\Blog.cshtml" />
+    <Content Include="Views\Default\Contact.cshtml" />
+    <Content Include="Views\Default\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
